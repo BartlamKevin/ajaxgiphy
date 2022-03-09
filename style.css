@@ -1,0 +1,40 @@
+body{
+    background-color: rgb(29, 29, 29);
+    color: rgb(230, 230, 230);
+}
+.container{
+    margin: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+/* FORM */
+#formContainer{
+    margin-bottom: 1em;
+}
+input{
+    font-size: inherit;
+    padding: 6px 6px;
+}
+
+#searchBtn, button{
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 16px;
+    display: inline-block;
+    border: none;
+}
+#searchBtn {
+    background-color: mediumaquamarine;
+    
+}
+#delete{
+    background-color: firebrick;
+    color: rgb(230, 230, 230);
+}
+
+/* GIFS */
+img{
+    display: inline-block;
+    max-width: 33.333333%;
+    margin: 10px;
+}
